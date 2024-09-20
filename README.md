@@ -18,6 +18,20 @@ Before running this script, ensure the following are installed:
    - On macOS: `brew install ffmpeg`
    - On Linux (Ubuntu): `sudo apt install ffmpeg`
    - On Windows: [Download from FFmpeg website](https://ffmpeg.org/download.html)
+  
+     NOTE: Try to add ffmpeg and ffprobe to the PATH or pass directly the path of the binary like this:
+     ```
+       cmd = [
+        '/opt/homebrew/Cellar/ffmpeg/7.0.2_1/bin/1ffmpeg', '-i', input_file_path,
+        '-b:v', str(int(target_bitrate_kbps)) + 'k',
+        '-bufsize', str(int(target_bitrate_kbps)) + 'k',
+        '-maxrate', str(int(target_bitrate_kbps)) + 'k',
+        '-vf', "scale=-2:'min(720,ih)'",
+        '-threads', '0',
+        '-y', output_file_path
+    ]
+     ```
+     
 
 3. **tqdm**: For displaying progress bars.
    - You can install it using `pip`:
@@ -55,3 +69,20 @@ compressed_example.mp4
 Enter the target size in MB (e.g., 50):
 50
 Starting compression...
+
+**Results**
+
+Original video size: 415.7 MB
+Compressed File: 7.1 MB
+
+<img width="767" alt="image" src="https://github.com/user-attachments/assets/12e33398-5910-4847-a3b2-a62706cb58ef">
+
+Aspect of the original video:
+<img width="684" alt="image" src="https://github.com/user-attachments/assets/1546e195-3cbe-420f-b508-3a378c238568">
+
+Compressed video:
+<img width="595" alt="image" src="https://github.com/user-attachments/assets/2d2d4d10-bb03-462e-b0de-cb99ba9d29b3">
+
+
+
+
