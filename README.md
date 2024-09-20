@@ -72,15 +72,17 @@ Starting compression...
 
 **Results**
 
-Original video size: 415.7 MB
-Compressed File: 7.1 MB
+- **Original video size: 415.7 MB
+- **Compressed File: 7.1 MB
 
 <img width="767" alt="image" src="https://github.com/user-attachments/assets/12e33398-5910-4847-a3b2-a62706cb58ef">
 
-Aspect of the original video:
+**Aspect of the original video:**
+
 <img width="684" alt="image" src="https://github.com/user-attachments/assets/1546e195-3cbe-420f-b508-3a378c238568">
 
-Compressed video:
+**Compressed video:**
+
 <img width="595" alt="image" src="https://github.com/user-attachments/assets/2d2d4d10-bb03-462e-b0de-cb99ba9d29b3">
 
 
