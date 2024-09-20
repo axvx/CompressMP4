@@ -83,7 +83,7 @@ Starting compression...
 
 **Compressed video:**
 
-<img width="595" alt="image" src="https://github.com/user-attachments/assets/2d2d4d10-bb03-462e-b0de-cb99ba9d29b3">
+<img width="595" alt="image" src="https://github.com/user-attachments/assets/7f93c9f2-4190-438f-9246-ba452e7efa38">
 
 
 
